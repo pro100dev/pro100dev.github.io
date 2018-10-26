@@ -4645,6 +4645,69 @@ a.text-dark:hover, a.text-dark:focus {
       color: #000;
       transition: 0.7s ease all; }
 
+.misocial-hero {
+  background-image: url(public/img/misocial-hero-img.png);
+  min-height: 500px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .misocial-hero .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .misocial-hero .hero-content .display-header span {
+      background-color: #6e45e2; }
+
+.benefits {
+  background-image: url(public/img/benefits.png);
+  min-height: 600px;
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.what_we_belive {
+  background-image: url(public/img/what-we-belive.png);
+  min-height: 600px;
+  height: 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.how_we_do_it {
+  background-image: url(public/img/how_we_do_it.png);
+  min-height: 740px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 250px; }
+  .how_we_do_it .display-header {
+    text-align: center; }
+  .how_we_do_it .partners-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    bottom: 0; }
+  .how_we_do_it .partners-box-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 15px;
+    overflow: hidden;
+    overflow-x: auto; }
+    .how_we_do_it .partners-box-items a {
+      opacity: 0.8;
+      padding: 0 15px; }
+      .how_we_do_it .partners-box-items a:hover {
+        opacity: 1;
+        transition: 0.7s ease all; }
+
 @media (max-width: 992px) {
   .mobile-toggle {
     display: block; }
@@ -4705,7 +4768,8 @@ a.text-dark:hover, a.text-dark:focus {
   .hero-buttons {
     flex-direction: column; }
     .hero-buttons .btn {
-      margin: 8px 0; }
+      margin: 8px 0;
+      width: 100%; }
   .home_blog .blog-card-img {
     display: none; }
   .home_blog .blog-card {
