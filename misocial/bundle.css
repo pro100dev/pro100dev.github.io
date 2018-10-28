@@ -5133,7 +5133,8 @@ textarea.form-control {
   padding-top: 72px;
   padding-bottom: 125px; }
   .pricing_section .row {
-    margin: auto; }
+    margin: auto;
+    justify-content: center; }
 
 .pricing-card-box {
   padding: 50px;
@@ -5212,7 +5213,7 @@ textarea.form-control {
     padding-top: 125px; }
 
 .pricing-hero {
-  background-image: url(public/img/getstarted-hero-img.png);
+  background-image: url(public/img/pricing-hero-img.png);
   min-height: 500px;
   height: 100vh;
   background-attachment: fixed;
@@ -5238,6 +5239,134 @@ textarea.form-control {
     color: #9fa4af;
     font-weight: 500;
     text-transform: uppercase; }
+
+.navbar-blog {
+  background-color: #fff;
+  position: absolute;
+  z-index: 9999;
+  top: 0; }
+  .navbar-blog .mobile-toggle span {
+    background: #2e2e2e; }
+
+.navbar-blog.open-nav {
+  background-color: #fff !important; }
+
+.articles-hero-item {
+  position: relative;
+  cursor: move;
+  cursor: grab;
+  background-color: .articles-hero-item secondary;
+  min-height: 500px !important;
+  height: 100vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 370px;
+  width: 33vw; }
+  .articles-hero-item .hero-content {
+    max-width: 350px;
+    padding: 0 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left; }
+    .articles-hero-item .hero-content .display-header {
+      font-size: 2.5rem; }
+  .articles-hero-item .btn-light {
+    background-color: #fff;
+    color: #bbbdc2;
+    border: none; }
+    .articles-hero-item .btn-light:hover {
+      background-color: #6e45e2;
+      color: #fff;
+      transition: 0.7s ease; }
+    .articles-hero-item .btn-light:active {
+      background-color: #4f4f6f !important;
+      color: #fff !important;
+      box-shadow: none !important; }
+    .articles-hero-item .btn-light:focus {
+      box-shadow: none !important; }
+
+.articles-bg-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(public/img/articles-bg-1.png); }
+
+.articles-bg-2 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(public/img/articles-bg-2.png); }
+
+.articles-bg-3 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(public/img/articles-bg-3.png); }
+
+.articles-bg-4 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(public/img/articles-bg-4.png); }
+
+.articles-hero-slider .slick-dots {
+  position: relative;
+  padding: 0;
+  margin-top: -26px;
+  display: flex;
+  margin-bottom: 0;
+  justify-content: center; }
+
+.articles-hero-slider .slick-dots .slick-active button {
+  background-color: #fff; }
+
+.articles-section {
+  background-color: #f9fafc;
+  padding: 90px 0; }
+
+.recent-articles-list .blog-card {
+  background-color: #fff;
+  margin: 24px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 24.6px 5.4px rgba(204, 204, 223, 0.3);
+  display: flex;
+  flex-direction: column; }
+  .recent-articles-list .blog-card p {
+    color: #9fa4af; }
+  .recent-articles-list .blog-card a {
+    color: #4f4f6f; }
+  .recent-articles-list .blog-card .blog-card-img {
+    background-image: url(public/img/blog-card-img.png);
+    min-width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px; }
+  .recent-articles-list .blog-card .blog-card-box {
+    padding: 40px; }
+  .recent-articles-list .blog-card .blog-card-title {
+    max-height: 36px;
+    overflow: hidden; }
+  .recent-articles-list .blog-card .blog-card-comments {
+    display: flex;
+    align-items: center;
+    font-size: 0.813rem;
+    margin-bottom: 0; }
+  .recent-articles-list .blog-card .blog-card-date {
+    font-size: 0.813rem; }
+  .recent-articles-list .blog-card .pre-line {
+    margin: 29px 0;
+    width: 70px; }
+  .recent-articles-list .blog-card .blog-card-content {
+    line-height: 1.8;
+    max-height: 84px;
+    overflow: hidden; }
+
+.recent-articles-list .blog-card-img {
+  background-image: url(public/img/blog-card-img.png);
+  min-width: 200px;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0 !important; }
+
+.articles-section .row {
+  margin: auto; }
+
+.articles-section .container-fluid {
+  max-width: 1500px; }
 
 @media (max-width: 992px) {
   .mobile-toggle {
