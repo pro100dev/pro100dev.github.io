@@ -3,14 +3,31 @@ body {
     font-family: montserrat, arial, verdana;
     letter-spacing: 0.04rem;
     overflow-x: hidden;
+    overflow: overlay;
 }
 *:focus {
     outline: none;
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+::-webkit-scrollbar-track {
+    background: transparent;
+
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.35); 
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px;
+}
+  
 
 ::-moz-selection { /* Code for Firefox */
-  color: #fff;
-  background: #44cda7;
+    color: #fff;
+    background: #44cda7;
 }
 ::selection {
     color: #fff;
@@ -383,7 +400,8 @@ footer {
 }
 
 .form_two #msform .action-button {
-    width: 150px;
+    min-width: 195px;
+    width: 195px;
 }
 
 .form_two #msform fieldset {
@@ -407,6 +425,10 @@ footer {
     .form_two #msform fieldset {
         min-width: 300px;
         width: 95% !important;
+    }
+
+    .form_two #msform .action-button {
+        width: 100%;
     }
 
     #msform .action-button-previous {
