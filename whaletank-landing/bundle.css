@@ -215,15 +215,15 @@ transition: transform ease .5s;
 }
 
 .disclaimer h6 {
-    font-size: 1rem;
+    font-size: 0.813rem;
     font-weight: 700;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.35);
 }
 
 .disclaimer p {
-    margin-top: 1.8rem;
-    font-size: 0.813rem;
+    margin-top: 1.3rem;
+    font-size: 0.625rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.4);
     line-height: 2;
