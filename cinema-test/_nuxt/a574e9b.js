@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{324:function(e,n,t){"use strict";t.r(n);t(11),t(19);var c={name:"IndexPage",created:function(){this.$router.replace("/movies").catch((function(){}))}},r=t(54),component=Object(r.a)(c,(function(){var e=this.$createElement;return(this._self._c||e)("div")}),[],!1,null,null,null);n.default=component.exports}}]);
